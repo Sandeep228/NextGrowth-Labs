@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGrowth</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h5 class="container1">Company name</h5>
+            <nav>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#"  id="openModalBtn">Pricing</a></li>
+                    <button class="signup">Sign up</button>
+                </ul>
+              
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content1">
+            <h1 style="text-align:center; margin:0px; font-size: 56px; color:#212529;margin-bottom:8px; font-weight:300;">Pricing</h1>
+        <p style="margin-bottom:16px; margin:0px; font-size: 20px; font-weight:300;" >Quickly build an effective pricing table for your potential customers with this Bootstrap example.
+       It's built with default Bootstrap components and utilities with little customization.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <div class="card-outer">
+               <div class="card-header">
+                <h4 style="font-weight:400; margin:0px; font-size:24px; padding: 12px 20px;">Free</h4>
+               </div>
+               <div class="card-inner";>
+                   <h1>$0 / mo</h1>
+                   <ul class="common">
+                    <li>10 users included </li>
+                    <li>2 GB of storage </li>
+                    <li>Email support </li>
+                    <li>Help center access </li>
+                   </ul>
+                   <button class="signup1" id="openModalBtn">Signup for free</button>
+               </div>
+            </div>
+        </div>
+        <div>
+            <div class="card-outer">
+               <div class="card-header">
+                <h4 style="font-weight:400; margin:0px; font-size:24px; padding: 12px 20px;">Pro</h4>
+
+               </div>
+               <div class="card-inner";>
+                   <h1>$15 / mo</h1>
+                   <ul class="common">
+                    <li>20 users included </li>
+                    <li> 10 GB of storage </li>
+                    <li>Priority Email support </li>
+                    <li>Help center access </li>
+                   </ul>
+                   <button class="signup2" id="openModalBtn">Get Started</button>
+
+               </div>
+            </div>
+        </div>
+        <div>
+            <div class="card-outer">
+               <div class="card-header">
+                <h4 style="font-weight:400; margin:0px; font-size:24px; padding: 12px 20px;">Enterprise</h4>
+
+               </div>
+               <div class="card-inner";>
+                   <h1>$29 / mo</h1>
+                   <ul class="common">
+                    <li>30 users included </li>
+                    <li>15 GB of storage </li>
+                    <li>Phone and Email support </li>
+                    <li>Help center access </li>
+                   </ul>
+                   <button  class="signup2" id="openModalBtn">Contact us</button>
+
+               </div>
+            </div>
+        </div>
+    </div>
+    <footer  class="footer">
+    <div class="footer1">
+        <!-- <div class="item">
+            <img src="we.avif"  height="30px", width="40px" alt="bootstrap"/>
+            <small>@ 2017-2018</small>
+        </div> -->
+        <div class="item">
+            <img loading="lazy" style="width: 24px;height: 24px;" alt="logo" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"/>
+            <p style="color: #6c757d; font-size: 0.75rem; margin: 0;">@ 2017-2018</p>
+        </div>
+        <div class="item1">
+            <h1 style="font-weight: 500; margin:0; font-size:23px;margin-bottom:12px">Features</h1>
+            <ul>
+                <li><a href="#">Features</a></li>
+             <li><a href="#">Cool stuff </a> </li>
+             <li><a href="#">Random feature</a> </li>
+             <li><a href="#">Team feature</a>  </li>
+             <li><a href="#">Stuff for developers</a>  </li>
+             <li><a href="#">Another one </a> </li>
+             <li><a href="#">Last time</a> </li>
+            </ul>
+        </div>
+        <div class="item2">
+            <h1 style="font-weight: 500; margin:0; font-size:23px;margin-bottom:12px">Resources</h1>
+            <ul>
+             <li><a href="#"> Resource</a>  </li>
+             <li><a href="#">Resource name</a> </li>
+             <li><a href="#">Another resource</a>  </li>
+             <li><a href="#">Final resource</a>  </li>
+            </ul>
+        </div>
+        <div class="item3">
+            <h1 style="font-weight: 500; margin:0; font-size:23px;margin-bottom:12px">About</h1>
+            <ul>
+              <li><a href="#">Team</a> </li>
+             <li><a href="#">Locations</a></li>
+             <li><a href="#">Team feature</a> </li>
+             <li><a href="#">Privacy</a></li>
+             <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">&times;</span>
+            <h2>Modal Form</h2>
+            <form id="myForm">
+                <div class="input-container">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-container">
+                    <label for="inputBox">Comments:</label>
+                    <input type="text" id="inputBox" name="inputBox" placeholder="Type here" required>
+                </div>
+                <div class="input-container">
+                    <label for="slider">Select a Value:</label>
+                    <input type="range" id="slider" name="slider" min="0" max="100">
+                    <input type="text" id="sliderValue" name="sliderValue" placeholder="Slider Value" readonly>
+
+                </div>
+                <div class="input-container">
+                    <label for="radio-options">Select a Plan:</label>
+                    <div id="radio-options">
+                        <input type="radio" id="free" name="plan" value="free">
+                        <label for="free">Free (0-20)</label>
+                        <input type="radio" id="pro" name="plan" value="pro">
+                        <label for="pro">Pro (20-50)</label>
+                        <input type="radio" id="enterprise" name="plan" value="enterprise">
+                        <label for="enterprise">Enterprise (50-100)</label>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button type="button" id="closeModalBtn">Close</button>
+                    <button type="submit" id="submitBtn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="toast" id="toast">Form submitted successfully! Congrats!!</div>
+    </div>
+    
+  
+    <script src="app.js"></script>
+</body>
+</html>

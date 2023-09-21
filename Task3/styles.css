@@ -1,0 +1,17 @@
+.image-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.image-card:hover {
+    transform: scale(1.05);
+}
+
+.image-card img {
+    max-width: 100%;
+    height: auto;
+}
